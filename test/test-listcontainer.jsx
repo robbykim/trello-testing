@@ -11,6 +11,6 @@ describe('Listcontainer component', function() {
     renderer.render(<Listcontainer title="listContainer"/>);
     var result = renderer.getRenderOutput();
     console.log(result, "<<< result");
-    result.props.title.should.equal();
+    result.type.should.equal(List);
   });
 });
